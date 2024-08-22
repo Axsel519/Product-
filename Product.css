@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(243 235 228);
+}
+
+.preview.card {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    margin: 6% 27%;
+}
+
+.image img {
+    width: 145%;
+    height: auto;
+    margin: -2% -15%;
+    margin-top: 0px;
+}
+
+p.ph1 {
+    font-size: 73%;
+    letter-spacing: 0.2vw;
+    margin-top: 1vw;
+    padding: 5% 15%;
+}
+
+p{
+    color: #868789;
+}
+
+.text {
+    margin: 0% 6%;
+} 
+
+h1 {
+    margin: 6% 4%;
+    padding: 0% 10%;
+    width: 105%;
+}
+
+p.ph2 {
+    padding: 0% 15%;
+    width: 111%;
+}
+
+.price {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3% 0%;
+}
+
+b {
+    font-size: 230%;
+    color: #358165;
+    font-family: cursive;
+    padding: 0% 12%;
+}
+
+.btn-cart {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 60px;
+    background-color: #3d8168;
+    color: #fff;
+    border: none;
+    border-radius: 0.5vw;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 8% 15%;
+    width: 90%;
+    text-align: center;
+    justify-content: space-between;
+    height: 4vw;
+}   
+
+.btn-cart i {
+    margin-left: 10px;
+}
+
+.btn-cart:active {
+    background-color: rgb(26 64 49);
+}
+
+@media screen and (max-width:480px) {
+
+    .preview.card {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        width: 70%;
+        margin: 3% 15%;
+        border-radius: 2%;
+    }
+
+    .image img {
+        content: url(product-preview-card-component-main/images/image-product-mobile.jpg);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-radius: 2% 2% 0% 0%;
+    }
+
+    
+p.ph1 {
+    padding: 2% 15%;
+}
+
+
+h1 {
+    font-size: 7vw;
+    margin-top: 1%;
+}
+
+.text {
+    margin: 0% -10%;
+}
+
+
+p.ph2 {
+    width: 96%;
+    font-size: 3vw;
+    margin: -1vw 0vw;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+b {
+    padding: 0% 10%;
+}
+
+.btn-cart {
+    font-size: 15px;
+    margin: 2% 15%;
+    width: 65%;
+    height: 10vw;
+    border-radius: 0.5vw;
+}
+
+
+
+
+
+}
